@@ -793,7 +793,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                         0.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Ortopdista',
+                                                              'Ortopedista',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
