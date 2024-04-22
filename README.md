@@ -14,7 +14,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autores
 
-* **Desenvolvedor** - *Todo o Desenvolvimento* - [Github](https://github.com/CapsPhos)
+* **Desenvolvedor** - *Todo o Desenvolvimento* - [Pedro Henrique Ornelas](https://github.com/CapsPhos)
 
 ## 🎁 Expressões de gratidão
 
