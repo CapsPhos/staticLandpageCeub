@@ -22,6 +22,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => HomePageModel());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -39,6 +41,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
+        backgroundColor: const Color(0x25BCAEAE),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
             await launchURL(
@@ -128,11 +131,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             child: Container(
                                               width: 60.0,
                                               height: 60.0,
-                                              decoration: BoxDecoration(
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .primaryText,
-                                                boxShadow: const [
+                                              decoration: const BoxDecoration(
+                                                color: Color(0xFFECF0F1),
+                                                boxShadow: [
                                                   BoxShadow(
                                                     blurRadius: 7.0,
                                                     color: Color(0x64000000),
@@ -169,9 +170,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
+                                                            const Color(0xFFECF0F1),
                                                         fontSize: 24.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -184,19 +183,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           Padding(
                                             padding:
                                                 const EdgeInsetsDirectional.fromSTEB(
-                                                    15.0, 5.0, 0.0, 0.0),
+                                                    5.0, 5.0, 0.0, 0.0),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Faça a escolha do que você está procura:',
+                                                  'Faça a escolha do que você está procurando:',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
+                                                        color:
+                                                            const Color(0xFFECF0F1),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -581,6 +582,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                         .override(
                                                                           fontFamily:
                                                                               'Noto Sans JP',
+                                                                          color:
+                                                                              const Color(0xFFECF0F1),
                                                                           letterSpacing:
                                                                               0.0,
                                                                           fontWeight:
@@ -731,6 +734,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Noto Sans JP',
+                                                                        color: const Color(
+                                                                            0xFFECF0F1),
                                                                         letterSpacing:
                                                                             0.0,
                                                                         fontWeight:
@@ -881,6 +886,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Noto Sans JP',
+                                                                        color: const Color(
+                                                                            0xFFECF0F1),
                                                                         letterSpacing:
                                                                             0.0,
                                                                         fontWeight:
@@ -1031,6 +1038,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Noto Sans JP',
+                                                                        color: const Color(
+                                                                            0xFFECF0F1),
                                                                         letterSpacing:
                                                                             0.0,
                                                                         fontWeight:
@@ -1108,9 +1117,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                   .bodyMedium
                                                   .override(
                                                     fontFamily: 'Poppins',
-                                                    color: FlutterFlowTheme.of(
-                                                            context)
-                                                        .primaryText,
+                                                    color: const Color(0xFFECF0F1),
                                                     fontSize: 24.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w600,
@@ -1299,10 +1306,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         BorderRadius.circular(
                                                             20.0),
                                                     border: Border.all(
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .primaryText,
+                                                      color: const Color(0xFFECF0F1),
                                                     ),
                                                   ),
                                                   child: Row(
