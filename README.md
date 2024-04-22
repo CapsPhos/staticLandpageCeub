@@ -1,7 +1,7 @@
 # ZionClinic
 
 O projeto tem como foco principal a reformulação da clínica, com a criação de uma Landing Page estática. 
-*[ZionClinic](https://zionclinic.flutterflow.app/) - Site da ZionClinic
+* [ZionClinic](https://zionclinic.flutterflow.app/) - Site da ZionClinic
 
 ## 🛠️ Construído com
 
