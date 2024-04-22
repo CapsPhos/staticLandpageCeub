@@ -1,6 +1,6 @@
 # ZionClinic - Projeto CEUB
 
-O projeto em como intuito de mostrar uma landpage da clinica, sendo ela baseada na solicitação do professor: Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços.
+O projeto tem como intuito de mostrar uma landpage da clinica, sendo ela baseada na solicitação do professor: Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços.
 
 ## 🛠️ Construído com
 
